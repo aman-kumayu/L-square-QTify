@@ -31,6 +31,28 @@
     flex-wrap: wrap;
     gap: 20px;  /* Horizontal spacing between cards */
   }
+
+  /* Make sure carousel container is responsive */
+.carousel-container {
+  position: relative;
+}
+
+/* Position for the custom navigation buttons */
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
   
   @media (max-width: 768px) {
     .grid {

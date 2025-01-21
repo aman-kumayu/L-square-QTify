@@ -1,6 +1,7 @@
 import Hero from "../Hero/Hero";
 import Navbar from "../Navbar/Navbar";
 import Section from "../Section/Section";
+import Songs from "../Songs/Songs";
 
 function MainPage(){
     return (
@@ -17,6 +18,7 @@ function MainPage(){
             title="New Albums"
             apiEndpoint="https://qtify-backend-labs.crio.do/albums/new"
         />
+        <Songs/>
         </div>
     );
 }

@@ -1,0 +1,46 @@
+.songs-section {
+    padding: 20px;
+  }
+  
+  .MuiTab-root {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: none;
+  }
+  
+  .MuiTabs-indicator {
+    background-color: #1976d2;
+  }
+  
+  .song-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .song-card h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .swiper-button-prev, .swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
