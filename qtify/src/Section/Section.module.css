@@ -1,0 +1,40 @@
+/* Section.module.css */
+.section {
+    margin-bottom: 40px;
+    background-color: #121212;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Vertical spacing between title and grid */
+    color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .collapseButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  /* Horizontal spacing between cards */
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      justify-content: center;
+    }
+  }
+  
