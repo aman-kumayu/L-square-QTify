@@ -1,4 +1,9 @@
 
+/* Ensure there are no negative margins or transforms that might cause a shift */
 .logo-img {
-    margin-left: 20px; /* Space between logo and nav links */
+  margin-left: 0;
+  padding-left: 0;
+  left: 20px;
+  position: relative; /* If you're using position, ensure it's positioned properly */
+  /* Optionally, add a `transform: translateX(0)` if there were any previous transformations */
 }
