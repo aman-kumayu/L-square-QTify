@@ -3,7 +3,7 @@
 }
 .hero {
   background-color: var(--color-black);
-  height: 270px;
+  /* height: 270px; */
   width: 100%;
   display: flex;
   justify-content: center;
