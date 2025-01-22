@@ -6,8 +6,7 @@ function CustomCard({ album }) {
   return (
     <div className={styles.card}>
       <img src={album.image} alt={album.title} className={styles.image} />
-      {/* <p className={styles.description}>{album.description}</p> */}
-      <h3>{album.title}</h3>
+      <h3 className={styles.h3class}>{album.title}</h3>
       <Chip label={album.follows + " Follows"}/>
     </div>
 

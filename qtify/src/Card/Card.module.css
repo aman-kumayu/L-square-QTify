@@ -6,7 +6,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center all text inside the card */
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: space-between; /* Ensures that text elements are spaced evenly */
   }
@@ -15,7 +15,6 @@
     width: 100%;
     /* height: auto; */
     border-radius: 5px;
-    margin-bottom: 15px;
   }
   
   .title {
@@ -32,3 +31,6 @@
     margin-bottom: 0; /* Remove bottom margin for compact layout */
   }
   
+  .h3class{
+    margin: 0 !important;
+  }
