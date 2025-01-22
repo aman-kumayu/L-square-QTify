@@ -35,7 +35,7 @@ const Songs = () => {
   };
 
   const renderSong = (song) => {
-    <div className="song-card" key={song.id}>
+    return <div className="song-card" key={song.id}>
         <img src={song.image} alt={song.title} />
         <h3>{song.title}</h3>
         <Chip label={`Likes: ${song.likes}`} color="primary" />
@@ -63,10 +63,10 @@ const Songs = () => {
           ))}
         </Tabs>
       </Box>
-      {/* <Carousel data={filteredSongs} renderItem={renderSong} /> */}
+      <Carousel data={filteredSongs} renderItem={renderSong} />
       
       {/* Carousel for displaying songs */}
-      <Swiper spaceBetween={10} slidesPerView="auto" loop={true}>
+      {/* <Swiper spaceBetween={10} slidesPerView="auto" loop={true}>
         {filteredSongs.map(song => (
           <SwiperSlide key={song.id}>
             <div className="song-card" key={song.id}>
@@ -76,7 +76,7 @@ const Songs = () => {
             </div>
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 };
