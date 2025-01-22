@@ -40,7 +40,7 @@ function Section({ title, apiEndpoint }) {
         <Carousel data={data} renderItem={renderCard} />  // Render the carousel when collapsed
       ) : (
         <div className={styles.grid}>
-          {data.slice(0, 7).map((album) => (
+          {data.map((album) => (
             <CustomCard key={album.id} album={album} />
           ))}
         </div>
