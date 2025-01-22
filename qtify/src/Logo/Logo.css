@@ -1,13 +1,4 @@
-.navbarContainer {
-    display: flex;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center;     /* Center the items vertically */
-    /* width: 100%; */
-    /* padding: 10px 20px; */
-    /* background-color: #333; */
-    /* color: white; */
-  }
-  
-  .navbarContainer img {
+
+.logo-img {
     margin-left: 20px; /* Space between logo and nav links */
-  }
+}

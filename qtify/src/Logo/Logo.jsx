@@ -3,5 +3,7 @@ import LogoImage from "../assets/logo.png";
 import "./Logo.css"
 
 export default function Logo() {
-  return (<div className="navbarContainer"><img flex="20" src={LogoImage} alt="logo" width={67} /></div>);
+  return (
+    <img className="logo-img" src={LogoImage} alt="logo" height={40} width={67} />
+  );
 }
